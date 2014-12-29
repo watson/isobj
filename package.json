@@ -1,0 +1,30 @@
+{
+  "name": "isobj",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Thomas Watson Steen <w@tson.dk>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "description": "Test if something is an object literal",
+  "keywords": [
+    "test",
+    "object",
+    "literal",
+    "validate",
+    "check"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/isobj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/watson/isobj/issues"
+  },
+  "homepage": "https://github.com/watson/isobj"
+}
