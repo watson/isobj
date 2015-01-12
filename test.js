@@ -28,14 +28,14 @@ var nonObjects = [
 
 test('should return true for objects', function (t) {
   objects.forEach(function (obj) {
-    t.equals(isObj(obj), true);
+    t.equals(isObj(obj), true, 'should match ' + obj);
   });
   t.end();
 });
 
 test('should return false for non-objects', function (t) {
   nonObjects.forEach(function (obj) {
-    t.equals(isObj(obj), false);
+    t.equals(isObj(obj), false, 'should not match ' + obj);
   });
   t.end();
 });
